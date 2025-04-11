@@ -1,0 +1,3 @@
+main|main_path|Main Application|/main
+package1|package1_path|First Package|/package1
+package2|package2_path|Second Package|/package2

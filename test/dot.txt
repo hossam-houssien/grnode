@@ -1,0 +1,11 @@
+digraph test { 
+  bgcolor="lightgray";
+  node [shape=box, style=filled, fillcolor="#e0e0e0", fontname="Arial"];
+  edge [color="#555555", fontname="Arial"];
+  n0 [label="main", URL="/main", tooltip="Main Application"];
+  n1 [label="package1", URL="/package1", tooltip="First Package"];
+  n2 [label="package2", URL="/package2", tooltip="Second Package"];
+  n0 -> n1 [label="depends_on"];
+  n0 -> n2 [label="uses"];
+  n1 -> n2  n2 -> n0 [label="used_by"];
+}
