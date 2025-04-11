@@ -1,6 +1,7 @@
 digraph test { 
   bgcolor="lightgray";
-  node [shape=box, style=filled, fillcolor="#e0e0e0", fontname="Arial"];
+  rankdir=LR;
+  node [shape=oval, style=filled, fillcolor="#e0e0e0", fontname="Arial"];
   edge [color="#555555", fontname="Arial"];
   n0 [label="main", URL="/main", tooltip="Main Application"];
   n1 [label="package1", URL="/package1", tooltip="First Package"];
